@@ -6,6 +6,14 @@
     color: black;
 }
 
+a {
+    color: #0699A6;
+}
+
+ul {
+    padding-left: 20px;
+}
+
 /* header секция */
 
 header {
@@ -168,6 +176,10 @@ header {
     color: #9E8C6C;
 }
 
+.experience .last-h5 {
+    margin-top: 30px;
+}
+
 /* footer секция */
 
 footer {
@@ -221,6 +233,12 @@ footer {
 
 /* adapt секция */
 
+@media(max-width: 1400px) {
+    .about-header h1 {
+        width: auto;
+    }
+}
+
 @media(max-width: 1100px) {
     .header-wrapper {
         background: rgba(236, 162, 34, 0.15);
@@ -251,7 +269,6 @@ footer {
     }
 
     .about-header h1 {
-        width: auto;
         font-size: 63px;
     }
 

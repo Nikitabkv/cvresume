@@ -47,6 +47,7 @@ header {
 }
 
 .about-header h1 {
+    width: 500px;
     font-family: 'Playfair Display', serif;
     font-style: normal;
     font-weight: 900;
@@ -250,6 +251,7 @@ footer {
     }
 
     .about-header h1 {
+        width: auto;
         font-size: 63px;
     }
 
@@ -302,5 +304,16 @@ footer {
 
     .footer-wrapper .email {
         font-size: 7vw;
+    }
+}
+
+@media (max-width: 350px) {
+    .header-wrapper .header-photo {
+        height: 250px;
+        width: 250px;
+    }
+
+    .about-header h1 {
+        font-size: 49px;
     }
 }
